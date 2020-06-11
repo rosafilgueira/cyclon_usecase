@@ -1,0 +1,30 @@
+script_environment:
+  class: File
+  path: env_preparation.sh
+  secondaryFiles:
+    - class: Directory
+      location: ../workflow_cmip6/
+
+script_processfiles:
+    class: File
+    path: processfiles.sh
+
+script_transferfiles:
+    class: File
+    path: transferfiles.sh
+    
+script_extractnc: 
+    class: File
+    path: extractnc.sh
+   
+script_make_tracks: 
+    class: File
+    path: make_tracks.sh
+    
+script_xml2ascii: 
+    class: File
+    path: xml2ascii.sh
+    
+script_postprocess: 
+    class: File
+    path: postprocess.sh
