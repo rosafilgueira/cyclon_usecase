@@ -1,0 +1,13 @@
+export psl="psl"
+export orog="orog"
+export ua500="ua"
+export va500="va"
+export zg1000="zg"
+export lsm="sftlf"
+
+export latmin="30.0"
+export latmax="90.0"
+export lonmin="345.0"
+export lonmax="30.0"
+export period_start_date="20500101"
+export period_end_date="20691231"

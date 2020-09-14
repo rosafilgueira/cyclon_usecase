@@ -1,0 +1,1 @@
+./tracking_master.sh /Users/page/docker/cyclone_dare/cwl /Users/page/docker/cyclone_dare/cwl/results /Users/page/docker/cyclone_dare/cwl/cyclone_config_CMIP6.json /Users/page/docker/cyclone_dare/cwl/config_cmip6.txt
