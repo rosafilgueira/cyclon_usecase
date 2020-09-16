@@ -73,4 +73,5 @@ RUN ls -l ${HOME} ${HOME}/tracking ${HOME}/cyclone_workflow_git
 
 COPY entrypoint.sh .
 ENTRYPOINT bash entrypoint.sh
+
 # CMD tail -f /dev/null
